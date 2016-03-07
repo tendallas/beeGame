@@ -10,6 +10,7 @@ use application\Interfaces\StateInterface;
 use application\State\Begin;
 use application\helpers\NotEmptyString;
 use application\State\End;
+use framework\helpers\Request;
 
 /**
  * Game.
@@ -73,7 +74,9 @@ class Game
     private function playCGI()
     {
         $command = $this->interface->getCommand($this->state);
-        $command->execute($this);
+        if (Request::isAJAX()) {
+            $command->execute($this);
+        }
         if ($this->state instanceof End) {
             unset($_SESSION['in_game']);
             $_SESSION['out_game'] = true;
