@@ -2,7 +2,7 @@
 namespace framework\Controllers;
 
 use framework\Core\ControllerBase;
-use framework\helpers\Request;
+use framework\Helpers\Request;
 
 class MainController extends ControllerBase
 {

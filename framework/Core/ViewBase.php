@@ -1,7 +1,7 @@
 <?php
 namespace framework\Core;
-use framework\helpers\Request;
-use framework\helpers\Tpl;
+use framework\Helpers\Request;
+use framework\Helpers\Tpl;
 
 /**
  * Class ViewBase

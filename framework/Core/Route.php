@@ -1,7 +1,7 @@
 <?php
 namespace framework\Core;
 
-use framework\helpers\Request;
+use framework\Helpers\Request;
 
 /**
  * Class Route

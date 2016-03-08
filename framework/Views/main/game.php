@@ -1,5 +1,5 @@
 <?php
-use framework\helpers\Tpl;
+use framework\Helpers\Tpl;
 
 $params = json_encode([
     'url' => '/main/index'

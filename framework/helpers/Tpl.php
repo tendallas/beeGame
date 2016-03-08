@@ -1,12 +1,11 @@
 <?php
-namespace framework\helpers;
+namespace framework\Helpers;
 
 /**
- * View helpers
- * @abstract
+ * Class Tpl
+ * @package framework\Helpers
  */
-
-abstract class Tpl
+class Tpl
 {
     /**
      * @var array

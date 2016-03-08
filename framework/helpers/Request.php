@@ -1,11 +1,11 @@
 <?php
-namespace framework\helpers;
+namespace framework\Helpers;
 
 /**
  * Class Request
- * @package framework\helpers
+ * @package framework\Helpers
  */
-abstract class Request
+class Request
 {
     /**
      * @var
@@ -78,15 +78,6 @@ abstract class Request
      */
     public static function url($addURI = false)
     {
-    }
-
-    /**
-     * @param string $defaultValue
-     * @return string
-     */
-    public static function referer($defaultValue = '')
-    {
-        return static::getSERVER('HTTP_USER_AGENT');
     }
 
     /**

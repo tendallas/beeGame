@@ -1,5 +1,5 @@
 <?
-use framework\helpers\Tpl;
+use framework\Helpers\Tpl;
 ?>
 <!DOCTYPE html>
 <html lang="en">
