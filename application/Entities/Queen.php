@@ -1,6 +1,6 @@
 <?php
 
-namespace application\entities;
+namespace application\Entities;
 
 /**
  * Class Queen.

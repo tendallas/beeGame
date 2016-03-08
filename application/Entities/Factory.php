@@ -1,9 +1,9 @@
 <?php
 
-namespace application\entities;
+namespace application\Entities;
 
-use application\helpers\NotEmptyString;
-use application\helpers\PositiveInteger;
+use application\Helpers\NotEmptyString;
+use application\Helpers\PositiveInteger;
 
 /**
  * Bee Factory.

@@ -1,8 +1,8 @@
 <?php
 
-namespace application\entities;
+namespace application\Entities;
 
-use application\helpers\PositiveInteger;
+use application\Helpers\PositiveInteger;
 
 /**
  * Class Bee.

@@ -2,10 +2,10 @@
 
 namespace application\Builder;
 
-use application\entities\Factory;
-use application\entities\Gang;
-use application\helpers\NotEmptyString;
-use application\helpers\PositiveInteger;
+use application\Entities\Factory;
+use application\Entities\Gang;
+use application\Helpers\NotEmptyString;
+use application\Helpers\PositiveInteger;
 use application\Config\Config;
 
 /**

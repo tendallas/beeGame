@@ -3,12 +3,12 @@
 namespace application\GamePlay;
 
 use application\ClientInterface\CGI;
-use application\entities\Gang;
+use application\Entities\Gang;
 use application\Interfaces\ClientInterface;
 use application\Interfaces\CommandInterface;
 use application\Interfaces\StateInterface;
 use application\State\Begin;
-use application\helpers\NotEmptyString;
+use application\Helpers\NotEmptyString;
 use application\State\End;
 use framework\Helpers\Request;
 

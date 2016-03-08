@@ -1,6 +1,6 @@
 <?php
 
-namespace application\helpers;
+namespace application\Helpers;
 
 /**
  * Not empty string wrapper.
