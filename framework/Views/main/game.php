@@ -18,9 +18,25 @@ Tpl::registerJS($script);
         <img width="150" src="/images/bee.png" />
         <ul style="list-style: none">
             <?php foreach($bees as $bee): ?>
+                <?php
+                $class = 'success';
+                switch($bee) {
+                    case $bee <= 25:
+                    {
+                        $class = 'danger';
+                    }
+                    break;
+                    case $bee <= 50:
+                    {
+                        $class = 'warning';
+                    }
+                    break;
+
+                }
+                ?>
                 <li class="bee">
                     <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="<?= $bee ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?= $bee ?>%">
+                        <div class="progress-bar progress-bar-<?= $class ?> progress-bar-striped" role="progressbar" aria-valuenow="<?= $bee ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?= $bee ?>%">
                             <span class="sr-only"><?=$bee ?>% hp left</span>
                         </div>
                     </div>
