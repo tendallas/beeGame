@@ -10,7 +10,7 @@ use application\Interfaces\StateInterface;
 use application\State\Begin;
 use application\helpers\NotEmptyString;
 use application\State\End;
-use framework\helpers\Request;
+use framework\Helpers\Request;
 
 /**
  * Game.
